@@ -22,6 +22,8 @@ except:
 GCM_CONFIG = {'gcm_api_key': '<YOUR-GCM-API-KEY>',
 #              'delete_bad_token_callback_func': 'EXAMPLE_MANAGE_TOKENS_MODULE.delete_bad_gcm_token',
 #              'update_token_callback_func': 'EXAMPLE_MANAGE_TOKENS_MODULE.update_gcm_token',
+#              'on_success_callback_func': 'EXAMPLE_MODULE.handle_successful_notification',
+#              'on_error_callback_func': 'EXAMPLE_MODULE.handle_failed_notification',
               }
 
 
